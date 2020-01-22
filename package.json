@@ -1,0 +1,22 @@
+{
+  "name": "lubdub-backend",
+  "version": "1.0.0",
+  "description": "backend of lubdub side project",
+  "main": "index.js",
+  "repository": "https://github.com/bangcoderPro/lubdub-backend.git",
+  "author": "bangcorderPro <ijawa99@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
